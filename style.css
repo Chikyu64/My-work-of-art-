@@ -1,0 +1,40 @@
+body {
+  width: 80%;
+  margin: 10vh !important;
+}
+.div {
+  height: 100px;
+  width: 100px;
+}
+.back {
+  background: #7dd4ee;
+  height: 500px;
+  width: 500px;
+  align-items: center;
+  display: flex;
+  z-index: -1;
+}
+.circle {
+  width: 400px;
+  height: 200px;
+  background: #70e976;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  margin: 10%;
+}
+@media screen and (max-width: 768){
+    .circle{
+        background-color: purple;
+    }
+}
+@media screen and (max-width: 320){
+    .circle{
+        background-color: lawngreen;
+        width: 200px;
+        height: 100px;
+    }
+}
+br {
+    margin: 10000px;
+}
